@@ -1,0 +1,19 @@
+name: solubility-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - streamlit
+  - rdkit
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pyg
+  - matplotlib
+  - fpdf
+  - numpy
+  - requests
+  - pip
+  - pip:
+      - torch-geometric
+
