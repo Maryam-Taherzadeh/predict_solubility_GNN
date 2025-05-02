@@ -1,9 +1,0 @@
-streamlit
-torch
-torch-geometric
-matplotlib
-numpy
-rdkit-pypi
-fpdf
-requests
-
