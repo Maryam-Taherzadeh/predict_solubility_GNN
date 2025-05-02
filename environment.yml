@@ -1,0 +1,16 @@
+name: solubility-gnn
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - rdkit
+  - pip
+  - pip:
+      - streamlit
+      - torch
+      - torch-geometric
+      - matplotlib
+      - numpy
+      - fpdf
+      - requests
+
