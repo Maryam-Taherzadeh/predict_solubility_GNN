@@ -1,14 +1,16 @@
-name: solubility-gnn
+name: gnn-app
 channels:
   - conda-forge
+  - pytorch
 dependencies:
   - python=3.10
   - rdkit
+  - pytorch=2.3.0
+  - torchvision
+  - torchaudio
   - pip
   - pip:
       - streamlit
-      - torch
-      - torch-geometric
       - matplotlib
       - numpy
       - fpdf
