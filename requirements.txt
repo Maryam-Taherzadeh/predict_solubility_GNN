@@ -1,0 +1,9 @@
+streamlit
+torch==2.3.0
+torch-geometric
+matplotlib
+numpy
+rdkit-pypi
+fpdf
+requests
+
