@@ -1,4 +1,6 @@
 # app_aqsoldb_ui.py - Streamlit app for AqSolDB-trained solubility predictor with enhanced UI + PDF
+import os
+os.system("pip install torch-geometric -f https://data.pyg.org/whl/torch-2.3.0+cpu.html")
 
 import streamlit as st
 import requests

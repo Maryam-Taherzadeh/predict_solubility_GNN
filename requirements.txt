@@ -1,6 +1,5 @@
 streamlit
 torch==2.3.0
-torch-geometric
 rdkit-pypi
 matplotlib
 numpy
