@@ -1,9 +1,14 @@
 streamlit
 torch==2.3.0
-torch-geometric
 matplotlib
 numpy
 rdkit-pypi
 fpdf
 requests
+# Install torch-geometric manually from official source
+# Streamlit Cloud or Hugging Face will use CPU
+--find-links https://data.pyg.org/whl/torch-2.3.0+cpu.html
+torch-scatter
+torch-sparse
+torch-geometric
 
