@@ -206,7 +206,7 @@ This app predicts the water solubility (logS) of small molecules using a Graph N
 """)
 
 st.markdown("""
-    <h1 style='color:#0d47a1;'>💪 Solubility Predictor (AqSolDB)</h1>
+    <h1 style='color:#0d47a1;'> Solubility Predictor (AqSolDB)</h1>
     <p style='font-size:18px;'>Enter a molecule name or SMILES to predict water solubility using a GNN trained on the AqSolDB dataset.</p>
 """, unsafe_allow_html=True)
 
